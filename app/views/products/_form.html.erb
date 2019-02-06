@@ -1,0 +1,42 @@
+<%= javascript_include_tag "awesomplete", async: true -%>
+<%= form_with(model: product, local: true) do |form| %>
+  <% if product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% product.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :product_name, 'data-url': url_for(controller: 'products', action: 'awesomplete_product_name', format: 'js') %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tagline %>
+    <%= form.text_field :tagline, id: :product_tagline %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+
+
+<script type="text/javascript">
+window.addEventListener('input', function (e) {
+  if (e.target.id == "product_name" && App.awesomplete_query_running == false) {
+    Rails.ajax({
+      type:'GET',
+      url: e.target.getAttribute('data-url')+'?q='+e.target.value,
+      dataType: 'script'
+    });
+    App.awesomplete_query_running = true;
+  }
+}, false);
+</script>

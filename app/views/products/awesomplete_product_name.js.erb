@@ -1,0 +1,7 @@
+var as_product_name;
+if (as_product_name == undefined) {
+  as_product_name = new Awesomplete(document.getElementById("product_name"), {minChars: 0});
+  document.getElementById("product_name").focus();
+}
+as_product_name.list = <%= raw @product_names.to_s -%>;
+App.awesomplete_query_running = false;
