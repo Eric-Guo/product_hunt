@@ -7,6 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 5.times do
   Product.create! \
-    name: Faker::Company.name,
-    tagline: Faker::Company.catch_phrase
+    name: FFaker::Company.name,
+    tagline: FFaker::Company.catch_phrase
 end
