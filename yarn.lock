@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-awesomplete@^1.1.1:
+awesomplete@^1.1.5:
   version "1.1.5"
   resolved "https://registry.npm.taobao.org/awesomplete/download/awesomplete-1.1.5.tgz#1b2b5dd106d3955595619c03da472a1dc0faf0af"
   integrity sha1-Gytd0QbTlVWVYZwD2kcqHcD68K8=
