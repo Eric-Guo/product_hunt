@@ -80,7 +80,7 @@ GEM
     crass (1.0.6)
     erubi (1.10.0)
     execjs (2.8.1)
-    ffaker (2.19.0)
+    ffaker (2.20.0)
     ffi (1.15.4)
     globalid (0.5.2)
       activesupport (>= 5.0)
@@ -98,18 +98,18 @@ GEM
       mini_mime (>= 0.1.1)
     marcel (1.0.2)
     method_source (1.0.0)
-    mini_mime (1.1.1)
+    mini_mime (1.1.2)
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     minitest-ci (3.4.0)
       minitest (>= 5.0.6)
     msgpack (1.4.2)
     nio4r (2.5.8)
-    nokogiri (1.12.4)
+    nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     public_suffix (4.0.6)
-    puma (5.5.0)
+    puma (5.5.2)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
@@ -218,4 +218,4 @@ DEPENDENCIES
   webdrivers
 
 BUNDLED WITH
-   2.2.28
+   2.2.29
