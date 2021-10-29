@@ -4,7 +4,7 @@
 
 awesomplete@^1.1.5:
   version "1.1.5"
-  resolved "https://registry.nlark.com/awesomplete/download/awesomplete-1.1.5.tgz#1b2b5dd106d3955595619c03da472a1dc0faf0af"
+  resolved "https://registry.npmmirror.com/awesomplete/download/awesomplete-1.1.5.tgz#1b2b5dd106d3955595619c03da472a1dc0faf0af"
   integrity sha1-Gytd0QbTlVWVYZwD2kcqHcD68K8=
 
 milligram@^1.3.0:
@@ -16,5 +16,5 @@ milligram@^1.3.0:
 
 normalize.css@~8.0.1:
   version "8.0.1"
-  resolved "https://registry.npm.taobao.org/normalize.css/download/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  resolved "https://registry.nlark.com/normalize.css/download/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
   integrity sha1-m5iiCHOLnMJjTKrLxC0THJdIe/M=
