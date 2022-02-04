@@ -4,17 +4,17 @@
 
 awesomplete@^1.1.5:
   version "1.1.5"
-  resolved "https://registry.npmmirror.com/awesomplete/download/awesomplete-1.1.5.tgz#1b2b5dd106d3955595619c03da472a1dc0faf0af"
-  integrity sha1-Gytd0QbTlVWVYZwD2kcqHcD68K8=
+  resolved "https://registry.npmmirror.com/awesomplete/-/awesomplete-1.1.5.tgz#1b2b5dd106d3955595619c03da472a1dc0faf0af"
+  integrity sha512-UFw1mPW8NaSECDSTC36HbAOTpF9JK2wBUJcNn4MSvlNtK7SZ9N72gB+ajHtA6D1abYXRcszZnBA4nHBwvFwzHw==
 
 milligram@^1.4.1:
   version "1.4.1"
-  resolved "https://registry.nlark.com/milligram/download/milligram-1.4.1.tgz#6c8c781541b0d994ccca784c60f0aca1f7104b42"
-  integrity sha1-bIx4FUGw2ZTMynhMYPCsofcQS0I=
+  resolved "https://registry.npmmirror.com/milligram/-/milligram-1.4.1.tgz#6c8c781541b0d994ccca784c60f0aca1f7104b42"
+  integrity sha512-RCgh/boHhcXWOUfKJWm3RJRoUeaEguoipDg0mJ31G0tFfvcpWMUlO1Zlqqr12K4kAXfDlllaidu0x7PaL2PTFg==
   dependencies:
     normalize.css "~8.0.1"
 
 normalize.css@~8.0.1:
   version "8.0.1"
-  resolved "https://registry.npm.taobao.org/normalize.css/download/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
-  integrity sha1-m5iiCHOLnMJjTKrLxC0THJdIe/M=
+  resolved "https://registry.npmmirror.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
