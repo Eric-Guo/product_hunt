@@ -28,6 +28,8 @@ gem 'jbuilder'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'net-smtp', require: false # make test run in ruby 3.1
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
