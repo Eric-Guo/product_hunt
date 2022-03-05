@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/ruby:2.6.3-node-browsers
+      - image: circleci/ruby:3.0.3-node-browsers
         environment: # environment variables for primary container
           BUNDLE_JOBS: 3
           BUNDLE_RETRY: 3
@@ -30,8 +30,8 @@ jobs:
 
       # Which version of bundler? should keep same as Gemfile.lock
       - run:
-          name: install bundler v2.1.4
-          command: gem install bundler -v 2.1.4 && bundle -v
+          name: install bundler
+          command: gem install bundler && bundle -v
 
       # Restore bundle cache
       - restore_cache:
