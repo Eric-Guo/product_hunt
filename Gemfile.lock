@@ -80,7 +80,7 @@ GEM
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     digest (3.1.0)
-    erubi (1.10.0)
+    erubi (1.11.0)
     execjs (2.8.1)
     ffaker (2.21.0)
     ffi (1.15.5)
