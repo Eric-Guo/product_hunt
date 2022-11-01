@@ -6,12 +6,12 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.4'
+gem 'rails', '~> 7.0.4'
 gem 'bootsnap'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma'
+gem 'puma', '< 6'
 # Use SCSS for stylesheets
 gem 'sassc-rails'
 
