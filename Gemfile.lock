@@ -126,7 +126,7 @@ GEM
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     public_suffix (5.0.0)
-    puma (6.0.0)
+    puma (5.6.5)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
@@ -173,7 +173,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (4.5.0)
+    selenium-webdriver (4.6.0)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
