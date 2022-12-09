@@ -84,6 +84,7 @@ GEM
       xpath (~> 3.2)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
+    date (3.3.0)
     erubi (1.11.0)
     execjs (2.8.1)
     ffaker (2.21.0)
@@ -115,7 +116,8 @@ GEM
     minitest-ci (3.4.0)
       minitest (>= 5.0.6)
     msgpack (1.6.0)
-    net-imap (0.3.1)
+    net-imap (0.3.2)
+      date
       net-protocol
     net-pop (0.1.2)
       net-protocol
