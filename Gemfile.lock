@@ -115,7 +115,7 @@ GEM
     minitest (5.18.0)
     minitest-ci (3.4.0)
       minitest (>= 5.0.6)
-    msgpack (1.6.1)
+    msgpack (1.7.0)
     net-imap (0.3.4)
       date
       net-protocol
@@ -177,7 +177,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (4.8.3)
+    selenium-webdriver (4.8.6)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -189,7 +189,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.1)
+    sqlite3 (1.6.2)
       mini_portile2 (~> 2.8.0)
     terser (1.1.14)
       execjs (>= 0.3.0, < 3)
@@ -244,4 +244,4 @@ DEPENDENCIES
   webdrivers
 
 BUNDLED WITH
-   2.4.9
+   2.4.10
