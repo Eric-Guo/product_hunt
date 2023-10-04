@@ -88,7 +88,7 @@ GEM
     erubi (1.12.0)
     execjs (2.9.1)
     ffaker (2.23.0)
-    ffi (1.16.2)
+    ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.1)
@@ -241,4 +241,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.4.19
+   2.4.20
