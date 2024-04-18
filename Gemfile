@@ -9,7 +9,7 @@ end
 gem 'rails', '~> 7.1.0'
 gem 'bootsnap'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.7'
 # Use Puma as the app server
 gem 'puma', '>= 6'
 # Use SCSS for stylesheets
