@@ -132,7 +132,7 @@ GEM
       minitest (>= 5.0.6)
     msgpack (1.7.2)
     mutex_m (0.2.0)
-    net-imap (0.4.11)
+    net-imap (0.4.12)
       date
       net-protocol
     net-pop (0.1.2)
@@ -292,4 +292,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.10
+   2.5.11
