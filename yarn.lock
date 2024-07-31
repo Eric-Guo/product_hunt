@@ -3,9 +3,9 @@
 
 
 awesomplete@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.npmmirror.com/awesomplete/-/awesomplete-1.1.5.tgz#1b2b5dd106d3955595619c03da472a1dc0faf0af"
-  integrity sha512-UFw1mPW8NaSECDSTC36HbAOTpF9JK2wBUJcNn4MSvlNtK7SZ9N72gB+ajHtA6D1abYXRcszZnBA4nHBwvFwzHw==
+  version "1.1.7"
+  resolved "https://registry.npmmirror.com/awesomplete/-/awesomplete-1.1.7.tgz#480f7bb571e30c7a6d411c0139f07032943cd25a"
+  integrity sha512-hwClzFReIIfheoMWpoJ7juLp1o6Q7YjTtEdZIGfXvhRHA9ewKM03VS4ZoK+OEFIKM066PfQt9pzRIGV1TguRBw==
 
 milligram@^1.4.1:
   version "1.4.1"
