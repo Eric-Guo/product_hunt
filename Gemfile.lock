@@ -232,12 +232,12 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.0.4-aarch64-linux-gnu)
-    sqlite3 (2.0.4-arm-linux-gnu)
-    sqlite3 (2.0.4-arm64-darwin)
-    sqlite3 (2.0.4-x86-linux-gnu)
-    sqlite3 (2.0.4-x86_64-darwin)
-    sqlite3 (2.0.4-x86_64-linux-gnu)
+    sqlite3 (2.1.0-aarch64-linux-gnu)
+    sqlite3 (2.1.0-arm-linux-gnu)
+    sqlite3 (2.1.0-arm64-darwin)
+    sqlite3 (2.1.0-x86-linux-gnu)
+    sqlite3 (2.1.0-x86_64-darwin)
+    sqlite3 (2.1.0-x86_64-linux-gnu)
     stringio (3.1.1)
     terser (1.2.3)
       execjs (>= 0.3.0, < 3)
@@ -255,7 +255,7 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webrick (1.8.1)
+    webrick (1.8.2)
     websocket (1.2.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
@@ -294,4 +294,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.19
+   2.5.20
