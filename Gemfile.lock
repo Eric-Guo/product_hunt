@@ -132,7 +132,7 @@ GEM
     minitest (5.25.1)
     minitest-ci (3.4.0)
       minitest (>= 5.0.6)
-    msgpack (1.7.2)
+    msgpack (1.7.3)
     net-imap (0.4.16)
       date
       net-protocol
@@ -294,4 +294,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.20
+   2.5.21
