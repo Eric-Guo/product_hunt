@@ -10,7 +10,7 @@ class NewProductTest < ApplicationSystemTestCase
     page.has_no_selector?('ul > li > mark')
     fill_in 'product_tagline', with: 'Change your life: Learn to code'
     click_button 'Create Product'
-
+    sleep 0.1
     # Should be redirected to Home with new product
     assert_equal product_path(Product.last), page.current_path
     assert page.has_content?('Change your life: Learn to code')
