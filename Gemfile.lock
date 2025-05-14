@@ -78,7 +78,7 @@ GEM
     benchmark (0.4.0)
     bigdecimal (3.1.9)
     bindex (0.8.1)
-    bootsnap (1.18.4)
+    bootsnap (1.18.5)
       msgpack (~> 1.2)
     builder (3.3.0)
     byebug (12.0.0)
@@ -121,7 +121,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
-    loofah (2.24.0)
+    loofah (2.24.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
@@ -132,7 +132,7 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.8)
+    mini_portile2 (2.8.9)
     minitest (5.25.5)
     minitest-ci (3.4.0)
       minitest (>= 5.0.6)
@@ -163,7 +163,7 @@ GEM
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
-    psych (5.2.5)
+    psych (5.2.6)
       date
       stringio
     public_suffix (6.0.2)
@@ -305,4 +305,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.6.8
+   2.6.9
