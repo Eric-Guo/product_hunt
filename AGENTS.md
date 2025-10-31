@@ -5,7 +5,7 @@ This Rails 5.1 app keeps domain logic in `app/` (controllers, models, views, job
 
 ## Build, Test, and Development Commands
 - `bin/setup` installs gems, prepares the SQLite database, and checks prerequisites.
-- `yarn install` syncs frontend packages defined in `package.json`.
+- `pnpm install` syncs frontend packages defined in `package.json`.
 - `bin/rails server` boots the app locally on `http://localhost:3000`.
 - `bin/rails test` runs the full Minitest suite (models, controllers, integration).
 - `bin/rails test test/system` executes Capybara system specs; install `chromedriver` beforehand.

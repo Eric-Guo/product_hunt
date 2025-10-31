@@ -1,0 +1,37 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      awesomplete:
+        specifier: ^1.1.7
+        version: 1.1.7
+      milligram:
+        specifier: ^1.4.1
+        version: 1.4.1
+
+packages:
+
+  awesomplete@1.1.7:
+    resolution: {integrity: sha512-hwClzFReIIfheoMWpoJ7juLp1o6Q7YjTtEdZIGfXvhRHA9ewKM03VS4ZoK+OEFIKM066PfQt9pzRIGV1TguRBw==}
+
+  milligram@1.4.1:
+    resolution: {integrity: sha512-RCgh/boHhcXWOUfKJWm3RJRoUeaEguoipDg0mJ31G0tFfvcpWMUlO1Zlqqr12K4kAXfDlllaidu0x7PaL2PTFg==}
+
+  normalize.css@8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
+
+snapshots:
+
+  awesomplete@1.1.7: {}
+
+  milligram@1.4.1:
+    dependencies:
+      normalize.css: 8.0.1
+
+  normalize.css@8.0.1: {}
