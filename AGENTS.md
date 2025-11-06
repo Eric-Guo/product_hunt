@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This Rails 5.1 app keeps domain logic in `app/` (controllers, models, views, jobs, mailers). Front-end assets and JavaScript live in `app/assets`; shared utilities sit in `lib/`. Tests reside in `test/` alongside fixtures and system specs. Migrations stay under `db/` with the generated schema, configuration belongs in `config/`, static files live in `public/`, and SQLite databases defined in `config/database.yml` are stored in `storage/`.
+This Rails 7.2 app keeps domain logic in `app/` (controllers, models, views, jobs, mailers). Front-end assets and JavaScript live in `app/assets`; shared utilities sit in `lib/`. Tests reside in `test/` alongside fixtures and system specs. Migrations stay under `db/` with the generated schema, configuration belongs in `config/`, static files live in `public/`, and SQLite databases defined in `config/database.yml` are stored in `storage/`.
 
 ## Build, Test, and Development Commands
 - `bin/setup` installs gems, prepares the SQLite database, and checks prerequisites.
