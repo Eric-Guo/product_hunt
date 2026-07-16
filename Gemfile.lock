@@ -128,10 +128,10 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
-    loofah (2.25.1)
+    loofah (2.25.2)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    mail (2.9.0)
+    mail (2.9.1)
       logger
       mini_mime (>= 0.1.1)
       net-imap
@@ -242,7 +242,7 @@ GEM
       sprockets-rails
       tilt
     securerandom (0.4.1)
-    selenium-webdriver (4.45.0)
+    selenium-webdriver (4.46.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
@@ -263,10 +263,10 @@ GEM
     sqlite3 (2.9.5-x86-linux-gnu)
     sqlite3 (2.9.5-x86_64-darwin)
     sqlite3 (2.9.5-x86_64-linux-gnu)
-    terser (1.2.7)
+    terser (1.2.8)
       execjs (>= 0.3.0, < 3)
     thor (1.5.0)
-    tilt (2.7.0)
+    tilt (2.8.0)
     timeout (0.6.1)
     tsort (0.2.0)
     turbolinks (5.2.1)
@@ -320,4 +320,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-  4.0.15
+  4.0.16
